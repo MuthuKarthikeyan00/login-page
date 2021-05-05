@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+   
+  <div>
+
+      <header>
+      
+
+        <nav>
+          <input type="checkbox" id="check">
+          <label class="ck-btn" for="check"><span>-</span></label>
+          <label class="logo">MKcreation</label>
+          <ul>
+            <li> <a style="border-bottom: solid white 2px;" class="a" href="#">Home</a></li>
+            <li> <a class="a" href="#">Weather</a></li>
+            <li> <a class="a" href="#">Note'it</a></li>
+            <li> <a class="a" href="#">Game</a></li>
+            <li> <a class="a" href="#">Calculator</a></li>
+          </ul>
+        </nav>
+
+
+     </div>
+      </header>
+
+     <div class="frame">
+      <form >
+       <div class="bg">
+        <a id="log1" href="#" class="bgc log log1">LogIn</a><a id="log2" href="signup.html" class="log ">signUp</a><br>
+       </div>
+          <input id="in1" placeholder="Email ID" required class="in"><br>
+          <input id="in2" placeholder="Enter password" required class="in"><br>
+          <input class="cbox" required  type="checkbox">Remember the Id<br>
+          <button id="btn" onclick="clk()" type="submit" class="btn login">LogIn</button>
+      </form>
+     </div>
+  </div>
+
+
+  <script>
+   const btn=document.getElementById("btn");
+   const inp=document.getElementsByTagName('input');
+   const clk=(e)=>{
+       
+   }
+   
+  </script>
+</body>
+</html>
